@@ -4,6 +4,10 @@
     padding: 10px;
 
 }
+#navgeneral ul{
+	display:inline-block;
+}
+
 .navbar-nav.navbar-right {
     position: center;
     right: 0%;
