@@ -1,0 +1,21 @@
+
+body {
+    background-color: rgb(59, 59, 17);
+}
+.red {
+    color: red;
+}
+ 
+#footer {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+
+}
