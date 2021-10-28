@@ -15,8 +15,7 @@
 
 .navbar-nav.navbar-right {
     position: center;
-    right: 0%;
-    transform: translatex(-50%);
+    transform: translatex(-3%);
 	margin: 8px;
 	background-color:#FCFCFC;
     border:1px solid #FCFCFC;	
