@@ -56,7 +56,7 @@ h1::after{
 
 .contenedor_index{
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgb(255, 253, 253);
     margin-top: 150px;
     margin-bottom: 50px;
     margin-right: 200px;
@@ -77,12 +77,13 @@ h1::after{
 }
 
 footer{
-    background-color: whitesmoke;
+    text-align: center;
+    background-color: rgb(252, 246, 246);
     margin-top: 150px;
     margin-bottom: 50px;
     margin-right: 200px;
     margin-left: 200px;
-    padding: 20px;
+    padding: 10px;
     -moz-box-shadow: 5px 6px 6px 3px #424242;
     -webkit-box-shadow: 5px 6px 6px 3px #424242;
 }
