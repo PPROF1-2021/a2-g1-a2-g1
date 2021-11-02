@@ -78,14 +78,16 @@ h1::after{
 
 footer{
     text-align: center;
-    background-color: rgb(252, 246, 246);
-    margin-top: 150px;
-    margin-bottom: 50px;
-    margin-right: 200px;
-    margin-left: 200px;
-    padding: 10px;
-    -moz-box-shadow: 5px 6px 6px 3px #424242;
-    -webkit-box-shadow: 5px 6px 6px 3px #424242;
+    background-color:#252525;
+    color:white;
+    bottom:0;
+	position:absolute;
+	width:100%; 
+    padding: 20px;   
+    margin-left:-10px;	
+	margin-right:-30px;
+    
+   
 }
 
 .text-center {

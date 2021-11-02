@@ -46,6 +46,7 @@ h1{
     margin-left: 10px;
     padding-bottom: 20px;
 	padding-left:0px;
+    padding-right: 0px;
     -moz-box-shadow: 5px 6px 6px 3px #424242;
     -webkit-box-shadow: 5px 6px 6px 3px #424242;
 }
@@ -86,15 +87,18 @@ hr {
 }
 
 footer{
+    text-align: center;
     background-color: #252525;
 	color:white;
     bottom:0;
-	position:bottom;
-	width:100%;
-    margin-top:200px;
-    padding: 20px;
-   
-}
+	position:absolute;
+	width:100%;    
+    padding:20px;
+	margin-left:-10px;	
+	margin-right:-10px;
+    
+    
+    }
 
 .text-center {
     text-align: center;

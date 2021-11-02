@@ -29,6 +29,7 @@
 body{
     background-image: url ("images/institucion.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
 }
 
@@ -86,6 +87,7 @@ hr {
 }
 
 footer{
+    text-align: center;
     background-color: #252525;
 	color:white;
     bottom:0;
