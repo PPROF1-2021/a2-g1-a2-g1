@@ -1,24 +1,24 @@
 #navgeneral{
 	background-color: #CC1414;
 	border: 0px;
-    padding: 0px;        
+    padding: 0px;
 }
 
 #navgeneral ul{	
-	display:inline-block;	
+	display: inline-block;
 }
 
 #navgeneral li{
 	font-size: 15px;
-	display:inline-block;
+	display: inline-block;
 }
 	
 .navbar-nav.navbar-right{
-    position: center;    
+    position: center;
     transform: translatex(-3%);
 	margin: 8px;
-	background-color:#FCFCFC;
-    border:1px solid #FCFCFC;	
+	background-color: #FCFCFC;
+    border: 1px solid #FCFCFC;
 }
 
 #seccion:hover{
@@ -40,35 +40,47 @@ h1{
 .contenedor_index{
     text-align: left;
     background-color: #DBDBDB;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     margin-right: 10px;
     margin-left: 10px;
     padding-bottom: 20px;
-	padding-left:0px;
+	padding-left: 0px;
     padding-right: 0px;
     -moz-box-shadow: 5px 6px 6px 3px #424242;
     -webkit-box-shadow: 5px 6px 6px 3px #424242;
 }
 
-.carreras_institucion{
-	text-align: left;
+.categorias{
+	text-align: center;
     background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;    
-	padding-left:10px;
-	padding-top:20px;
+	color: #007D0A;
+    margin-top: 50px;
+    margin-bottom: 0px;
+	padding-left: 10px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 	-moz-box-shadow: 3px 4px 4px 1px #B8B8B8;
     -webkit-box-shadow: 3px 4px 4px 1px #B8B8B8;
-   
+}
+
+.categorias_biblioteca{
+	text-align: left;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	-moz-box-shadow: 3px 4px 4px 1px #B8B8B8;
+    -webkit-box-shadow: 3px 4px 4px 1px #B8B8B8;
 }
 
 .parrafo_index{
     font-family: Georgia, Times New Roman, Times, serif;
-    color: darkcyan;	    
-	font-size:17px;		
-    margin-bottom: 20px;
+    color: darkcyan;
+	font-size:17px;
+    margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 20px;
 	margin-bottom:20px;
@@ -80,26 +92,23 @@ h1{
 	display:inline;
 }
 
-hr {
+hr{
   height: 10px;
-  
   background-color: black;
 }
 
 footer{
     text-align: center;
     background-color: #252525;
-	color:white;
-    bottom:0;
-	position:absolute;
-	width:100%;    
-    padding:20px;
-	margin-left:-10px;	
-	margin-right:-10px;
-    
-    
-    }
+	color: white;
+    bottom: 0;
+	position: botom;
+	width: 100%;
+    padding: 20px;
+	margin-left: 0px;
+	margin-right: 0px;    
+}
 
-.text-center {
+.text-center{
     text-align: center;
 }
