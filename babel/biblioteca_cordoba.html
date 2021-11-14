@@ -51,8 +51,21 @@
 			<h1 id="header" style="font-feature-settings: Georgia, Times New Roman, Times, serif;">CATEGORÍAS</h1>
 		</div>
 
+		<script src="js/funcionesGrupo99.js"></script>
 		<div class="contenedor_index">			
-			<div class="parrafo_index" style="color: rgb(32, 11, 88); font-feature-settings:'arial'">			
+			<div class="parrafo_index" style="color: rgb(32, 11, 88); font-feature-settings:'arial'">	
+				<div class="categorias_biblioteca">					
+					<form action="" method="post" onsubmit="return calcularFecha()">
+						<h3 id="header" style="font-feature-settings: Georgia, Times New Roman, Times, serif;">
+						Puedes conocer la antigüedad de un libro ingresando su fecha de creación:</h3>
+						<label for="fecha">Ingrese el año del libro: &nbsp </label>
+						<input type="text" name="fecha" id="fecha" required/>
+						<button type="submit">Calcular</button>
+					</form>
+					</form>
+				</div>
+
+			
 				<div class="categorias_biblioteca">
 					<h2 id="header" style="font-feature-settings: Georgia, Times New Roman, Times, serif;">
 					<a href="#">Aventura</h2></a>					

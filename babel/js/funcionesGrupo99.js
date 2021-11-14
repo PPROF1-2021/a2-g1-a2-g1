@@ -61,3 +61,24 @@ function validar(){
 		return validacion_completa;
 	}	
 }
+
+function calcularFecha(){
+	fecha = document.getElementById("fecha").value;
+	
+	if(isNaN(fecha)){
+		alert("El dato ingresado no es numérico");		
+		return false;
+	}
+	else if(fecha<1500 || fecha >2021){
+		fecha_Int=parseInt(fecha);
+		alert("El año no puede ser menor a 1500 ni mayor a 2021");
+	return false;
+	
+	}
+	else{
+		fecha_Int=parseInt(fecha);
+		alert("El libro tiene una antiguedad de " + (2021- fecha_Int) + "años");
+		return false;
+	}
+	return false;
+}
