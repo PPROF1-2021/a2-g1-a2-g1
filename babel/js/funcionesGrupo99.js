@@ -82,3 +82,7 @@ function calcularFecha(){
 	}
 	return false;
 }
+
+function myFunction(f) {
+	f.style.background = "light-blue";
+}
