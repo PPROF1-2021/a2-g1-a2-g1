@@ -1,79 +1,126 @@
-<!DOCTYPE html> 
-<html lang="es"> 
+<!doctype html>
+<html lang="es">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
-		
-		<title> Babel - Tu biblioteca </title>
-
-		
-		<link rel="stylesheet" type="text/css" href="css/estilos.css">
-		<link rel="stylesheet" type="text/css" href="iconosredes.css">
-		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		
-		<link rel="shortcut icon" href="images/Babel_ico.png"/>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-		
-		<meta name="keywords" content= "Libro, Libros, Biblioteca, Virtual, Babel">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="css/estilos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/Babel_ico.png"/>
+    <title>Babel - Tu biblioteca</title>
+    <meta name="keywords" content= "Libro, Libros, Biblioteca, Virtual, Babel">
 		<meta name="description" content="Nuestro sitio te ayudará a saber qué libro se encuentra disponible en cada Biblioteca, cuáles no, reservarlos, verificar plazos de entreg y devolución.">
 		<meta http-equiv="refresh" content="100">    
-	</head>
+  </head>
 
-	<body background="images/fondo.jpg" >
-		<nav id="navgeneral" class="navbar navbar-default" role="navigation" >
-			<div  class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="navbar-collapse collapse">
-				<ul id="nav" class="nav navbar-nav navbar-left">
-					<li><a href="index.html"><img src="images/logo.png"/></a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-					<li id="seccion"><a href="establecimientos.html">Establecimiento</a></li>
-					<li id="seccion"><a href="login.html">Ingresar</a></li>
-					<li id="seccion"><a href="registro.html">Registrarse</a></li>  
-					<li id="seccion"><a href="contacto.html">Contacto</a></li>          
-				</ul>        
-			</div>
-		</nav>
-
-		<div class="contenedor_index">
+  <body background= images/fondo.jpg style="background-size:cover; background-repeat:no-repeat; background-position: center;background-attachment: fixed;">
+    
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <Establecimientos class="btn btn-light"><a href="establecimientos.html" role="button">Establecimientos</a>
+          </li>
+          <li class="nav-item">
+            <Ingresar class="btn btn-light"><a href="login.php" role="button">Ingresar</a>
+          </li>
+          <li class="nav-item">
+            <Registrarse class="btn btn-light"><a href="registro.php" role="button">Registrarse</a>
+          </li>
+          <li class="nav-item">
+            <Contacto class="btn btn-light"><a href="contacto.html" role="button">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+ 
+    <div class="contenedor_index">
 			<br>
 			<br>
-
 			<h1  style="color: coral; font-feature-settings: Georgia, 'Times New Roman', Times, serif;">Encontrá todo en BABEL </h1>
 			<br>
 			<br>
 
 			<div class="parrafo_index" style="color: rgb(32, 11, 88); font-feature-settings:'arial'">
-			<h3>				
+			  <h3>				
 				<p>La biblioteca es un espacio donde se preserva y se mantiene un registro cultural del pasado y del presente.</p>
 				<p>La palabra biblioteca deriva del griego compuesta por el prefijo <i>biblio-</i> que significa "libro" y el sufijo <i>-teca</i> que se refiere a un "armario".</p>
 				<p>Nuestro sitio te ayudará a saber qué libro se encuentra disponible en cada Biblioteca, cuáles no, reservarlos, verificar plazos de entrega y devolución.</p>
-			</h3>
+			  </h3>
 			</div>			
 		</div>
 
-		<footer>
-			<h3>
-				<p class="text-center">Copyright &copy; Babel.com </p>
-				<div class="buttons">
-					<a href="https://www.facebook.com/babelpopular" class="fa fa-facebook" target="_blank"></a>&nbsp;&nbsp;
-					<a href="https://www.google.com/?hl=es" class="fa fa-google-plus" target="_blank"></a>&nbsp;&nbsp;
-					<a href="https://www.youtube.com/watch?v=sZJcaXwuRbM&t=3s" class="fa fa-youtube" target="_blank"></a>
-				</div>
-			</h3>
-		</footer>
-	</body>
+
+
+    <footer class="footer" style="bottom: -100%;">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Menú</h4>
+            <ul>
+              <li><a href="#">establecimientos</a></li>
+              <li><a href="#">ingresar</a></li>
+              <li><a href="#">registrarse</a></li>
+              <li><a href="#">contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>contacto</h4>
+            <div class="ubicacion-info">
+            <ul>
+              <li><ion-icon name="pin"></ion-icon> Humberto 1º 650</li>
+              <li><ion-icon name="call"></ion-icon> (0351) 153987546</li>
+              <li><ion-icon name="mail"></ion-icon> babelbiblioteca@gmail.com</li>
+            </ul>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Seguinos</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/babelpopular"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.google.com/search?q=babel+biblioteca&ei=mvGaYZPOA-TT1sQPmdOO8A0&ved=0ahUKEwiTg7SI6Kr0AhXkqZUCHZmpA94Q4dUDCA0&uact=5&oq=babel+biblioteca&gs_lcp=Cgdnd3Mtd2l6EAMyBQguEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeOgcIABBHELADOgcIABCwAxBDOgoILhDIAxCwAxBDOgQIABBDOgQILhBDOgsILhCABBDHARCvAToKCAAQsQMQgwEQQzoICAAQFhAKEB5KBQg4EgExSgQIQRgAUOAbWJJRYIRVaAFwAngCgAHcDIgBiCiSAQ8wLjQuMy4xLjEuNy0xLjGYAQCgAQHIAQ_AAQE&sclient=gws-wiz"><i class="fab fa-google"></i></a>
+              <a href="https://www.youtube.com/watch?v=sZJcaXwuRbM&t=3s"><i class="fab fa-youtube"></i></a>
+
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>ubicación</h4>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.2583871247543!2d-64.19241074946956!3d-31.40700635284939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432987c6b625de7%3A0xe8339f77d4c8c4c4!2scapitalinas%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1637520249465!5m2!1ses!2sar" width="ml-auto" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+          </div>
+          
+          
+        
+        </div>
+      </div>
+      <div class="copyright">
+        <small>&copy;2021 - <b>Babel Biblioteca</b>. Todos los derechos reservados</small>
+      </div>
+   </footer>
+
+   
+
+
+  
+    
+    
+  </body>
 </html>
